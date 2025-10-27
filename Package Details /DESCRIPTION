@@ -15,7 +15,7 @@ Authors@R: c(person(given = "Grace",
            role = c("aut", "cre"),
            email = "kwijas23@gmail.com"))
 Description: This package reads in .ict files and converts them to .csv files. 
-License: What license is it under?
+License: MIT + file LICENSE
 Imports: 
     openxlsx,
     utils,
