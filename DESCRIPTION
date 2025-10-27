@@ -1,6 +1,6 @@
-Package: ICTtoCSV
+Package: ICTconverter
 Type: Package
-Title: NASA ICARTT File to CSV Converter
+Title: NASA ICARTT File Converter
 Version: 0.1.0
 Authors@R: c(person(given = "Grace",
            family = "Cloherty",
@@ -16,6 +16,10 @@ Authors@R: c(person(given = "Grace",
            email = "kwijas23@gmail.com"))
 Description: This package reads in .ict files and converts them to .csv files. 
 License: What license is it under?
+Imports: 
+    openxlsx,
+    utils,
+    dplyr
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.2
