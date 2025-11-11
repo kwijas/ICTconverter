@@ -3,9 +3,8 @@
 \title{NASA ICARTT File Converter}
 
 \usage{
-ict_to_csv()
-ict_to_xlsx()
+ict_convert()
 }
 \description{
-Converts NASA's ICARTT Files, stored as .ict, to CSV Files, XLSX Files.
+ This package reads in NASA ICARTT (.ict) files and converts them to a single CSV or XLSX file while storing the metadata from the campaigns into a TXT file.
 }
