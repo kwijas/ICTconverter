@@ -6,5 +6,5 @@
 ict_convert()
 }
 \description{
- This package reads in NASA ICARTT (.ict) files and converts them to a single CSV or XLSX file while storing the metadata from the campaigns into a TXT file.
+ This package reads in NASA ICARTT (.ict) files and converts them to a single CSV or XLSX file while storing the metadata from the campaigns into a TXT file. The default storage is .csv.
 }
