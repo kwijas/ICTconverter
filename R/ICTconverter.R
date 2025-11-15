@@ -7,6 +7,8 @@
 #' @param missing_values Numeric codes representing missing values to replace with NA.
 #'
 #' @return A data frame containing the combined data (invisibly).
+#' @examples
+#' # data_converted <- ict_convert("ict_data_folder", "csv_data")
 #' @export
 ict_convert <- function(
     input_folder,
