@@ -2,7 +2,7 @@
 % Please edit documentation in R/ICTconverter.R
 \name{ict_convert}
 \alias{ict_convert}
-\title{ICARTT File Converter}
+\title{NASA ICARTT File Converter}
 \usage{
 ict_convert(
   input_folder,
@@ -25,7 +25,7 @@ A data frame containing the combined data (invisibly).
 }
 \description{
 Convert and combine NASA ICARTT (.ict) files into a single CSV or XLSX,
-while saving one metadata file from the first ICT file.
+while saving one metadata file from the first ICT file into a TXT file.
 }
 \examples{
 data_converted_csv <- ict_convert("ict_data_folder", "csv_data")

@@ -1,9 +1,7 @@
-#' Convert and combine NASA ICARTT (.ict) files.
+#' NASA ICARTT File Converter
 #'
-#' This package reads multiple NASA ICARTT (.ict) files from a user specified
-#' folder, combines them into a single data frame, and saves the result as
-#' a CSV or XLSX file. It also extracts and saves the metadata file from the
-#' first ICT file encountered
+#' Convert and combine NASA ICARTT (.ict) files into a single CSV or XLSX,
+#' while saving one metadata file from the first ICT file into a TXT file.
 #'
 #' @param input_folder Path to the folder containing ICT files.
 #' @param output_file Path to save the combined CSV/XLSX file.
@@ -12,7 +10,7 @@
 #'
 #' @return A data frame containing the combined data (invisibly).
 #' @examples
-#' data_converted_csv <- ict_convert("ict_data_folder", "csv_data", "csv")
+#' data_converted_csv <- ict_convert("ict_data_folder", "csv_data")
 #' data_converted_xlsx <- ict_convert("ict_data_folder", "xlsx_data", "xlsx")
 #' @export
 ict_convert <- function(
