@@ -2,8 +2,7 @@
 % Please edit documentation in R/ICTconverter.R
 \name{ict_convert}
 \alias{ict_convert}
-\title{Convert and combine NASA ICARTT (.ict) files into a single CSV or XLSX,
-while saving one metadata file from the first ICT file.}
+\title{ICARTT File Converter}
 \usage{
 ict_convert(
   input_folder,
