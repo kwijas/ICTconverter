@@ -1,4 +1,4 @@
-#'ICT Converter
+#' ICT Converter
 #'
 #' Convert and combine NASA ICARTT (.ict) files into a single CSV or XLSX,
 #' while saving one metadata file from the first ICT file.
