@@ -17,7 +17,7 @@ Authors@R: c(person(given = "Grace",
 Description: This package reads in NASA ICARTT (.ict) files and converts them 
              to a single CSV or XLSX file while storing the metadata from the 
              campaigns into a TXT file. The defult file storage is .csv 
-License: MIT + file LICENSE
+License: MIT + file LICENSE 
 Imports: 
     openxlsx,
     utils,
