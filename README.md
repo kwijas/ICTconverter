@@ -40,6 +40,8 @@ output_fille = "C:\\Users\\<name>\\OneDrive\\SOOT\\LMOS-NAV-Longitude Combined.c
 output_format = “csv”
 )
 ```
+
+You must imput the ."csv" or ".xlsx" portion in your ouput file in order to get workable data! 
 ## After Conversion
 Once you have your combined CSV file, it’s important to check that all the information you expected is there. You can use both the metadata and SOOT to cross-check. After this, you can filter, analyze, or graph your variables. Use the metadata to understand units, instruments, and data collection methods.
 ## Getting an Error
