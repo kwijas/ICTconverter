@@ -3,13 +3,13 @@ An R package for converting and combining NASA ICARTT (.ict) files to CSV or XLS
 ## Description
 ICTconverter provides a simple program for reading, cleaning, and merging ICARTT (.ict) data files from NASA’s SOOT. The package takes in the multiple files that one variable downloads as, then combines the data into one large table to be exported as a CSV or Excel file, along with the extracted metadata (.txt).
 ### Features
-Takes in a folder of downloaded SOOT files of only one variable.
-Automatically detects header/column line in .ict files
-Extracts and saves metadata (from the first file only since they are identical)
-Reads and merges all .ict files found in a folder
-Standardizes column names and aligns mismatched structures
-Converts missing-value codes to NA
-Outputs to CSV (default) or XLSX
+- Takes in a folder of downloaded SOOT files of only one variable.
+- Automatically detects header/column line in .ict files
+- Extracts and saves metadata (from the first file only since they are identical)
+- Reads and merges all .ict files found in a folder
+- Standardizes column names and aligns mismatched structures
+- Converts missing-value codes to NA
+- Outputs to CSV (default) or XLSX
 ## Getting Started
 ### Downloading Data From SOOT
 This package is intended to convert data sourced directly from SOOT. To gather data from SOOT, follow this link (https://asdc.larc.nasa.gov/soot/search) and select the type of data you are interested in analyzing. Your choice will appear in the “Shopping Cart” section towards the bottom of the page. Then, click “Review Variables” and “Request Download.” It is important to note, you must create a free ASDC account before you are allowed to download data. 
