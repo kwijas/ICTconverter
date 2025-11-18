@@ -10,8 +10,8 @@
 #'
 #' @return A data frame containing the combined data (invisibly).
 #' @examples
-#' data_converted_csv <- ict_convert("ict_data_folder", "csv_data")
-#' data_converted_xlsx <- ict_convert("ict_data_folder", "xlsx_data", "xlsx")
+#' data_converted_csv <- ict_convert("ict_data_folder", "csv_data.csv")
+#' data_converted_xlsx <- ict_convert("ict_data_folder", "xlsx_data.xlsx", "xlsx")
 #' @export
 ict_convert <- function(
     input_folder,
