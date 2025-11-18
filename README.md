@@ -59,11 +59,11 @@ There are multiple error codes throughout the program itself that will alert you
 
 If you get stuck, check the folder path and whether a file is already open in Excel.
 ## Authors
-Grace Cloherty: @clohertyg
+Grace Cloherty: [@clohertyg](https://github.com/clohertyg)
 
-Alana Neylon: @alananeylon15
+Alana Neylon: [@alananeylon15](https://github.com/alananeylon15)
 
-Kellie Wijas: @kwijas
+Kellie Wijas: [@kwijas](https://github.com/kwijas)
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details
 ## Acknowledgements
