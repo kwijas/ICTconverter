@@ -24,9 +24,11 @@ library(ICTconverter)
 You will need to ensure you download your SOOT variables one at a time. If you choose to download multiple files at once, they need to be separated into their own folders. This program needs two parameters: an input folder and an output file. 
 #### Input Folder
 This will be the file path for the folder that houses your downloaded SOOT files. 
+
 Example: input_folder = "C:\\Users\\<name>\\OneDrive\\SOOT\\SOOT Files"
 #### Output File
 This will be the new file created with all data combined. 
+
 Example: output_fille = "C:\\Users\\<name>\\OneDrive\\SOOT\\LMOS-NAV-Longitude Combined.csv"
 #### Steps
 1. Load necessary packages
