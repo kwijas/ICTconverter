@@ -28,6 +28,7 @@ Convert and combine NASA ICARTT (.ict) files into a single CSV or XLSX,
 while saving one metadata file from the first ICT file into a TXT file.
 }
 \examples{
-data_converted_csv <- ict_convert("ict_data_folder", "csv_data.csv")
-data_converted_xlsx <- ict_convert("ict_data_folder", "xlsx_data.xlsx", "xlsx")
+SOOT_example <- system.file("extdata",package = "ICTconverter")
+data_converted_csv <- ict_convert(SOOT_example, "SOOT_example.csv")
+data_converted_xlsx <- ict_convert(SOOT_example, "SOOT_example.xlsx", "xlsx")
 }

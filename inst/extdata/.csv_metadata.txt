@@ -1,0 +1,36 @@
+37,1001
+GeoTASO Team
+NASA GSFC
+UC-12B (N528NA) Aircraft Location and Attitude Data
+LMOS 2017
+1,1
+2017,05,22,2018,08,24
+1
+UTC_start,seconds, start UTC time in seconds from midnight of the starting data collecting day 
+6
+1,1,1,1,1,1
+-9999,-9999,-9999, -9999, -9999, -9999
+AltGPS, km, 1 Hz aircraft GPS altitude data
+Lat, deg, 1 HZ aircraft GPS latitude data
+Lon, deg, 1 Hz aircraft GPS longitude data
+Roll, deg, 1 Hz aircraft roll angle
+Pitch, deg, 1 Hz aircraft pitch angle
+Hdg_GPS, deg, 1 Hz aircraft heading
+0
+17
+PI_CONTACT_INFO: Scott Janz, scott.j.janz@nasa.gov
+Platform: UC-12B King Air (N528NA)
+LOCATION: Included in data records
+ASSOCIATED_DATA: N/A
+INSTRUMENT_INFO: Applanix POSAV 510 
+DATA_INFO: 1 Hz data
+UNCERTAINTY: < 0.1 m Horizontal, < 0.2 m Vertical, 0.005 deg for pitch and roll angles, and 0.008 deg for heading
+ULOD_FLAG: -7777
+ULOD_VALUE: N/A
+LLOD_FLAG: -8888
+LLOD_VALUE: N/A;
+DM_CONTACT_INFO: Matt Kowalewski, matthew.g.kowalewski@nasa.gov
+PROJECT_INFO: N/A
+STIPULATIONS_ON_USE: N/A
+OTHER_COMMENTS: N/A
+REVISION: R0
